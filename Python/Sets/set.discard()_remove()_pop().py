@@ -16,7 +16,6 @@
 #             s.discard(int(w[1]))
 #     print(sum(s))
 
-
 n = int(input())
 s = set(map(int, input().split()))
 q = int(input())

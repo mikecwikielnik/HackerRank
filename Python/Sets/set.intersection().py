@@ -3,5 +3,5 @@ s = set(map(int, input().split()))
 n = int(input())
 t = set(map(int, input().split()))
 
-u = s.union(t)
+u = s.intersection(t)
 print(len(u))

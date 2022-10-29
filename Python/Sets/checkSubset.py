@@ -1,13 +1,9 @@
-
-n = int(input())
+a=set(input().split())
+n=int(input())
+result=True
 for _ in range(n):
-    x = int(input())
-    a = set(map(int, input().split()))
-    y = int(input())
-    b = set(map(int, input().split()))
-
-    if len(a-b) == 0:
-        print(True)
-    else:
-        print(False)
-
+    b=set(input().split())
+    if not a.issuperset(b):
+        result=False
+        break
+print(result)

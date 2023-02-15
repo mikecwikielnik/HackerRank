@@ -1,4 +1,4 @@
 # HackerRank
-various HackerRank challenges. Mainly Python
+various HackerRank challenges.
 
 https://www.hackerrank.com/mikecwikielnik
